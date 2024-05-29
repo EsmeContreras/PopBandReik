@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    /*background: radial-gradient(circle, #556B2F, white);*/
+
+    font-family:  "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+header {
+    /*background: url('img/fondo.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+    position: relative;
+    height: 100px; /* Altura del encabezado */
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del menú (con opacidad) */
+    width: 100%; /* Ancho del menú */
+    text-align: center;
+}
+/*ul lista desordenada*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+/*li elementos de la lista */
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    color: white; /* Color del texto del menú */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #111; /* Color de fondo del menú al pasar el ratón */
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:  rgb(45, 152, 201);
+
+}
+
+.img1{
+    width: 300px;
+    height: auto;
+    display: block; /*convierte image a bloque*/
+    margin: 0 auto; /*CENTRA IMAGEN A CENTRO*/
+
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(45, 152, 201);
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+}
+
+.blockquote.instagram-media {
+    /* Estilos adicionales según sea necesario */
+    border-radius: 10px;
+}
+
